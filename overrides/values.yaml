@@ -23,4 +23,4 @@ zen:
     # Find it by running:
     #   oc get ingresses.config/cluster -o jsonpath='{.spec.domain}'
     # Example: apps.mycluster.example.com
-    ingressNodeHostname: "apps.itz-jxw4ii.infra01-lb.wdc07.techzone.ibm.com[student02@bastion-1 ~]$"
+    ingressNodeHostname: "apps.itz-jxw4ii.infra01-lb.wdc07.techzone.ibm.com"
