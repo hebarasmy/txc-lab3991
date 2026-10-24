@@ -11,11 +11,11 @@
 global:
   # TODO: Set this to your assigned operator namespace.
   # Example: cpd-operators-student1
-  operatorNamespace: ""
+  operatorNamespace: "cpd-operators-student02"
 
   # TODO: Set this to your assigned instance namespace.
   # Example: cpd-student1
-  instanceNamespace: ""
+  instanceNamespace: "cpd-student02"
 
 zen:
   zen:
@@ -23,4 +23,4 @@ zen:
     # Find it by running:
     #   oc get ingresses.config/cluster -o jsonpath='{.spec.domain}'
     # Example: apps.mycluster.example.com
-    ingressNodeHostname: ""
+    ingressNodeHostname: "apps.itz-jxw4ii.infra01-lb.wdc07.techzone.ibm.com[student02@bastion-1 ~]$"
