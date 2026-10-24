@@ -21,13 +21,13 @@ spec:
         releaseName: software-hub-crds-<student-number>
         valueFiles:
           - $overrides/overrides/values.yaml
-    - repoURL: <YOUR-REPO-URL>
+    - repoURL: https://github.com/hebarasmy/txc-lab3991.git
       targetRevision: main
       ref: overrides
 
   destination:
     server: https://kubernetes.default.svc
-    namespace: <YOUR-NAMESPACE>
+    namespace: cpd-student02
 
   syncPolicy:
     automated:
